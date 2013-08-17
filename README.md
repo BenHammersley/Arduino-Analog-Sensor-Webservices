@@ -20,7 +20,18 @@ http://x.x.x.x/analogReadJSON/1 and http://x.x.x.x/analogReadJSON/all will give 
 
 
 
-Usage:
+==Usage:
+
+Requires an arduino, and an ethernet shield, and some form of analog input.
+
+For a very basic analog input example, see http://arduino.cc/en/Tutorial/AnalogInput
 
 Be sure to set the MAC address of your ethernet shield, and the correct ip and gateway values in obvious section at the top of the code
   
+
+==Acknowledgements:
+
+This is loosely based on the data server created Sept 17, 2010 by Hari Wiguna, g33k.blogspot.com
+http://forum.arduino.cc/index.php/topic,6595.0.html#0
+
+I added the live update screen, the XML and JSON outputs, and the "all" mode, and removed the digital writing function.
