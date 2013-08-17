@@ -10,7 +10,7 @@ Each pin is individually addressable, or you can pull all of them at the same ti
 
 http://x.x.x.x/debug/ gives you a very useful constantly-refreshing status page
 
-http://x.x.x.x/analogRead/1 will give you the human readable value of the analog pin 1
+http://x.x.x.x/analogRead/1 will give you the human readable value of the analog pin 1 (There are pins numbered 0,1,2,3,4,and 5)
 
 http://x.x.x.x/analogRead/all will give you the human readable values of all of the analog pins.
 
@@ -22,5 +22,5 @@ http://x.x.x.x/analogReadJSON/1 and http://x.x.x.x/analogReadJSON/all will give 
 
 Usage:
 
-Be sure to set the MAC address of your ethernet shield, and the correct ip and gateway values, below.
+Be sure to set the MAC address of your ethernet shield, and the correct ip and gateway values in obvious section at the top of the code
   
